@@ -1,5 +1,5 @@
 #!/bin/bash
 set -euo pipefail
 
-echo "Hello, World!"
-ls -la
+echo "running non-parameterized docker build"
+docker built -t test:latest .
