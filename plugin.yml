@@ -1,0 +1,10 @@
+name: hadolint
+description: Runs hadolint
+author: https://github.com/feedyard
+requirements:
+  - docker
+configuration:
+  properties:
+    dockerfile:
+      type: string
+  required: []
